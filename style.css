@@ -1,1 +1,41 @@
 @charset "utf-8";
+
+#encabezado{
+	/*background: -webkit-linear-gradient(left,red,orange,red); degradado lineal de izquierda a derecha*/
+	background: -webkit-radial-gradient(center,ellipse,orange,red);
+	width: 40%;
+	border-radius: 20px;
+	margin: 15px auto;
+	box-shadow: gray 4px 3px;
+	border: solid black;
+
+}
+
+#titulo{
+	color: white;
+	text-shadow: black 2px 2px;
+	text-align: center;
+}
+
+nav{
+	border: solid black ;
+	background: orange;
+	width: 30%;
+	border-radius: 20px;
+	
+}
+
+li{
+	display: inline;
+	background-color: yellow;
+	font-size: 100%;
+	border-radius: 5px;
+}
+
+figure img{
+	border-radius: 15px;
+}
+
+#pie{
+
+}
