@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-#encabezado{
+#encabezado1{
 	/*background: -webkit-linear-gradient(left,red,orange,red); degradado lineal de izquierda a derecha*/
 	background: -webkit-radial-gradient(center,ellipse,orange,red);
 	width: 320px;
@@ -17,25 +17,59 @@
 	text-align: center;
 }
 
-nav{
-	border: solid black ;
-	background: orange;
-	width: 30%;
-	border-radius: 20px;
-	
+header img{
+	width: 30px;
+	height: 30px;
+	padding: 10px;	
+	border-right: 1px solid skyblue;
+	display: none;
 }
 
-li{
-	display: inline;
-	background-color: yellow;
-	font-size: 100%;
-	border-radius: 5px;
+header img:hover{
+	cursor: pointer; /*Cambia el cursor clasico a una manito*/
+	background: rgba(140, 125, 0, 0.5);
+}
+
+#encabezado2{
+	background: #4e94ab;
+	width: 100%;
+}
+
+#btn_Menu{
+	display: none;/*Oculta el cuadrito de checkbox del proyecto*/
+}
+
+#barramenu ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;/*No deja espacio vacio*/
+	display: flex;/*Lo pone en una linea horizontal*/
+}
+
+header label{
+	display: block;
+}
+
+body{
+	margin: 0;
+	/*font-family: sans-serif;*/
 }
 
 figure img{
-   float:left; 
+   float: left; 
    width: 220px; 
-   padding: 15px;  
+   padding: 15px;/*Espaciado entre fotos*/
+}
+
+figure img:hover{
+	transform: scale(1.1);
+}
+
+#barramenu li a{
+	border-right: 1px skyblue solid;
+	display: block;
+	padding: 15px 20px;
+	text-decoration: none;
 }
 
 
