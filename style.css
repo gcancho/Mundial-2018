@@ -102,7 +102,7 @@ figure img:hover{
 		border-top: 1px solid white;/*Borde superior de cada li del menu*/
 	}
 
-	#btn-Menu:checked ~ #barramenu{
+	#btn_Menu:checked ~ #barramenu{
 		margin: 0;
 	}
 }
