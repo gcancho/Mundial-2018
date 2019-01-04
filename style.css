@@ -70,6 +70,11 @@ figure img:hover{
 	display: block;
 	padding: 15px 20px;
 	text-decoration: none;
+	color: white;
+}
+
+#barramenu li a:hover{/*Eventos que se hara al pasar el mouse por los items del menu*/
+	background: rgba(0,0,0,0.3);
 }
 
 
@@ -77,3 +82,27 @@ figure img:hover{
 	clear: both;
 }
 
+@media (max-width:768px){
+	header img{
+		display: block;
+	}
+
+	#barramenu{
+		position: absolute;/*Para que el header quede vacio, la barra del menu sale del header*/
+		background: #4e94ab;
+		width: 60%;/*ancho del menu*/
+		margin-left: -70%;/*Desaparece el menu*/
+	}
+
+	#barramenu ul{
+		flex-direction: column;/*Pone al menu en columna*/
+	}
+
+	#barramenu li{
+		border-top: 1px solid white;/*Borde superior de cada li del menu*/
+	}
+
+	#btn-Menu:checked ~ #barramenu{
+		margin: 0;
+	}
+}
