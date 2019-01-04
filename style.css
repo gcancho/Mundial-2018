@@ -82,7 +82,7 @@ figure img:hover{
 	clear: both;
 }
 
-@media (max-width:1524px){
+@media (max-width:780px){
 	header img{
 		display: block;
 	}
