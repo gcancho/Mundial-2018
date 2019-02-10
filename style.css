@@ -1,12 +1,18 @@
 @charset "utf-8";
 
-#encabezado1{
-	background: -webkit-radial-gradient(center,ellipse,orange,red);
-	width: 320px;
-	border-radius: 20px;
-	margin: 15px auto;
-	box-shadow: gray 4px 3px;
-	border: solid black;
+body{
+	background: url(imagenes/estadio.jpg);
+	background-size: contain;
+	
+}
+#cabecera1{
+	background: rgba(204, 30, 30, 0.8);	
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	text-transform: uppercase;
+	
+	border: solid 1px black;
 
 }
 
@@ -29,9 +35,10 @@ header img:hover{
 	background: rgba(140, 125, 0, 0.5);
 }
 
-#encabezado2{
-	background: rgb(204, 30, 30);
+#cabecera2{
+	background: rgba(204, 30, 30, 0.8);
 	width: 100%;
+	margin: 0;
 }
 
 #btn_Menu{
@@ -67,12 +74,12 @@ body{
 }
 
 .football-players img{   
-   width: 250px; 
-   height: 350px; 
+   width: 170px; 
+   height: 200px; 
    flex-shrink: 0; 
    margin-left: 15px;
    margin-right: 15px;
-   margin-top: 20px;
+   margin-top: 30px;
 }
 
 .football-players .imaginary{
@@ -100,6 +107,8 @@ body{
 #pie{
 	clear: both;
 }
+
+
 
 /*----------------- Menu responsive cuando es igual o menor de 780px-------------------*/
 @media (max-width:780px){
