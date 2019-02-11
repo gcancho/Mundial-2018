@@ -11,22 +11,41 @@ body{
 	height: 60px;
 	margin: 0;
 	text-transform: uppercase;
+	display: flex;
 	
-	border: solid 1px black;
-
+}
+#titulo{
+	font-size: 24px;
 }
 
-#titulo{
-	color: white;
-	text-shadow: black 2px 2px;
+#b1{
+	height: inherit;
+	width: 33.33%;
+	background: rgba(204, 30, 30, 0.8);	
+
+}
+#b2{
+	height: inherit;
+	width: 33.33%;
+	background: white;
 	text-align: center;
+}
+#b2 .titulo{ 
+	color: black;
+}
+#b3{	
+	height: inherit;
+	width: 33.33%;
+	background: rgba(204, 30, 30, 0.8);	
+
+
 }
 
 header img{
 	width: 30px;
 	height: 30px;
 	padding: 10px;	
-	border-right: 1px solid skyblue;
+	border-right: 1px solid white;
 	display: none;
 }
 
@@ -50,6 +69,7 @@ header img:hover{
 	list-style: none;
 	padding: 0;/*No deja espacio vacio*/
 	display: flex;/*Lo pone en una linea horizontal*/
+	border-top: 1px solid black;
 }
 
 header label{
@@ -69,17 +89,18 @@ body{
 	margin: 0 auto;
 	margin-top: 60px;
 	justify-content: space-evenly;
-	border: 1px solid red;
+	background: rgba(255,255,255,0.1);	
+	border-radius: 30px;
 	
 }
 
 .football-players img{   
    width: 170px; 
    height: 200px; 
-   flex-shrink: 0; 
    margin-left: 15px;
    margin-right: 15px;
    margin-top: 30px;
+   border-radius: 20px;
 }
 
 .football-players .imaginary{
@@ -93,7 +114,7 @@ body{
 } 
 
 #barramenu li a{
-	border-right: 1px skyblue solid;
+	border-right: 1px black solid;
 	display: block;
 	padding: 15px 20px;
 	text-decoration: none;
@@ -104,14 +125,14 @@ body{
 	background: rgba(0,0,0,0.3);
 }
 
+
 #pie{
 	clear: both;
+	color: white;
 }
 
-
-
-/*----------------- Menu responsive cuando es igual o menor de 780px-------------------*/
-@media (max-width:780px){
+/*----------------- Menu responsive de 0px a 780px-------------------*/
+@media (min-width: 0px) and (max-width: 780px) {
 	.football-players{
 		margin-top: 200px;
 	}
@@ -124,10 +145,10 @@ body{
 		width: 60%;/*ancho del menu*/
 		margin-left: -70%;/*Desaparece el menu*/
 		transition: all 0.4s;
-
 	}
 	#barramenu ul{
 		flex-direction: column;/*Pone al menu en columna*/
+		background: green;
 	}
 	#barramenu li{
 		border-top: 1px solid white;/*Borde superior de cada li del menu*/
@@ -138,11 +159,14 @@ body{
 	#barramenu:hover{
 		transition: all 0.4s;
 	}
+	#titulo{
+		font-size: 15px;
+	}
 }
-/* ------------------Fin de Menu responsive----------------------------------------- */
+/* ----------------------------------------------------------------------------- */
 
-/*----------------- Menu responsive cuando es igual o menor de 1045px-------------------*/
-@media (max-width:1045px){
+
+@media (min-width: 781px) and (max-width: 1045px) {
 	.football-players{
 		margin-top: 200px;
 	}
@@ -170,6 +194,8 @@ body{
 	.football-players .imaginary{
 		display: none
 	}
-	
+	#titulo{
+		font-size: 20px;
+	}
 }
 /* ------------------Fin de Menu responsive----------------------------------------- */

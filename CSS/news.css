@@ -1,0 +1,22 @@
+.news{/*seccion de noticias */
+    border: 1px solid orange;
+    margin-top: 80px;
+    color: white;
+}
+.new-peru{/*seccion de cada noticia individualmente*/
+    border: 1px solid skyblue;
+}
+.title-new h3{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.theme-new{
+    display: flex;
+}
+.theme-new img{
+    margin: 10px;
+}
+.theme-new h4{
+    margin: 20px;
+}

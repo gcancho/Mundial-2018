@@ -1,0 +1,38 @@
+.football-players-details{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+h2{
+    width: 40%;
+    color: white;
+    background: red;
+    text-transform: uppercase;    
+}
+
+
+.detail{
+    border: 1px solid green;
+    display: flex;
+    margin-top: 40px;
+}
+
+.detail-box1{
+    width: 50%;
+    border: 1px solid orange;
+
+}
+.detail-box1 img{
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;    
+}
+.detail-box2{
+    width: 50%;
+    padding-left: 50px;
+}
+.detail-box2 h3{
+    color: white;
+    letter-spacing: 2px;
+}
