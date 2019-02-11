@@ -1,25 +1,31 @@
 .football-players-details{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 150px;
+    background: rgba(0,0,0,0.8);
+    border: 1px solid black;
 }
-h2{
-    width: 40%;
+/*Para todos los subtitulos*/
+h2{  
     color: white;
-    background: red;
+    
+}
+.content-subtitle{
+    background: rgba(20, 97, 212, 0.384);
     text-transform: uppercase;    
+    text-align: center;
 }
 
 
 .detail{
-    border: 1px solid green;
     display: flex;
     margin-top: 40px;
 }
 
 .detail-box1{
     width: 50%;
-    border: 1px solid orange;
+  
+ 
 
 }
 .detail-box1 img{
@@ -31,6 +37,7 @@ h2{
 .detail-box2{
     width: 50%;
     padding-left: 50px;
+    background: rgba(0, 153, 200, 0.2);
 }
 .detail-box2 h3{
     color: white;

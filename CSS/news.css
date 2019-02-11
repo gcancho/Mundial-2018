@@ -1,10 +1,12 @@
 .news{/*seccion de noticias */
-    border: 1px solid orange;
+    border: 1px solid black;
     margin-top: 80px;
     color: white;
+    margin-top: 150px;
 }
 .new-peru{/*seccion de cada noticia individualmente*/
-    border: 1px solid skyblue;
+    border: 1px solid black;
+    background: rgba(245, 0, 0, 0.2);
 }
 .title-new h3{
     width: 80%;
