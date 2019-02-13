@@ -64,12 +64,14 @@ header img:hover{
 	display: none;/*Oculta el cuadrito de checkbox del proyecto*/
 }
 
+
 #barramenu ul{
 	margin: 0;
 	list-style: none;
 	padding: 0;/*No deja espacio vacio*/
 	display: flex;/*Lo pone en una linea horizontal*/
 	border-top: 1px solid black;
+
 }
 
 header label{
@@ -130,6 +132,7 @@ body{
 	clear: both;
 	color: white;
 }
+
 
 /*----------------- Menu responsive de 0px a 780px-------------------*/
 @media (min-width: 0px) and (max-width: 780px) {

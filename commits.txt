@@ -1,64 +1,76 @@
-[33mcommit 94d07c309a57562a39779cf508b0b47b03a3725d[m[33m ([m[1;36mHEAD -> [m[1;32mgh-pages[m[33m)[m
+commit a523e693957b73cd1bbfc60a48556cbffb667f4d
+Author: Gio <giovannicb19@gmail.com>
+Date:   Mon Feb 11 14:12:49 2019 -0500
+
+    Se agregaron los enlaces del menu y tambien se cambiaron los estilos del cuerpo de la pagina
+
+commit 92d4c427c20a863ce6f9dd851e90fc244c2c687f
+Author: Gio <giovannicb19@gmail.com>
+Date:   Mon Feb 11 12:49:07 2019 -0500
+
+    Se agregaron las secciones para fichas tecnicas, noticias y videos con un poco de contenido en ellos
+
+commit 94d07c309a57562a39779cf508b0b47b03a3725d
 Author: Gio <giovannicb19@gmail.com>
 Date:   Sat Feb 9 22:45:14 2019 -0500
 
     Se cambio el estilo de la cabecera 1
 
-[33mcommit 139164150198690cf5f39e29ef7bb3253c23f965[m[33m ([m[1;31morigin/gh-pages[m[33m)[m
+commit 139164150198690cf5f39e29ef7bb3253c23f965
 Author: Gio <giovannicb19@gmail.com>
 Date:   Wed Feb 6 20:36:37 2019 -0500
 
     Se mejoró la pagina, se hizo responsive haciendo pequeños ajustutilizando flexbox y se cambio a rojo el menu
 
-[33mcommit 6837fbec3b6cb571534b141fc846293f8956fee8[m
+commit 6837fbec3b6cb571534b141fc846293f8956fee8
 Author: Gio <giovannicb19@gmail.com>
 Date:   Fri Jan 4 21:31:12 2019 -0500
 
     Se agrego el viewport en el head para poder ver si se adapta en dispositivos moviles
 
-[33mcommit d349825a6fe2755f8a615d02707fc42ccdd06b01[m
+commit d349825a6fe2755f8a615d02707fc42ccdd06b01
 Author: Gio <giovannicb19@gmail.com>
 Date:   Fri Jan 4 13:13:58 2019 -0500
 
     Probando*****
 
-[33mcommit 47f821254795bd995606a4a2223d4318cc202dad[m
+commit 47f821254795bd995606a4a2223d4318cc202dad
 Author: Gio <giovannicb19@gmail.com>
 Date:   Fri Jan 4 13:09:32 2019 -0500
 
     Pagina responsive 1524px
 
-[33mcommit e8626ac2182269ff0ac7efd88dcddd02bf05b5cb[m[33m ([m[1;33mtag: v0.9[m[33m, [m[1;33mtag: v0.8[m[33m)[m
+commit e8626ac2182269ff0ac7efd88dcddd02bf05b5cb
 Author: Gio <giovannicb19@gmail.com>
 Date:   Thu Jan 3 22:22:14 2019 -0500
 
     Menu responsive funcionando
 
-[33mcommit 747764d973cbc8cf7e498f06c8a2dfbc8d009692[m[33m ([m[1;31morigin/prueba[m[33m)[m
+commit 747764d973cbc8cf7e498f06c8a2dfbc8d009692
 Author: Gio <giovannicb19@gmail.com>
 Date:   Thu Jan 3 22:04:09 2019 -0500
 
     Se agrega un menu responsive pero con algunas fallas
 
-[33mcommit cfbdf7910a69ce892e5e5a5c5914f0016e6f6bfb[m
+commit cfbdf7910a69ce892e5e5a5c5914f0016e6f6bfb
 Author: Gio <giovannicb19@gmail.com>
 Date:   Mon Dec 31 19:59:40 2018 -0500
 
     Se cambio el estilo de la barra de menu de color azul
 
-[33mcommit bf7c703c9cec96ffbb744c01a79ec84c06eb8da1[m
+commit bf7c703c9cec96ffbb744c01a79ec84c06eb8da1
 Author: Gio <giovannicb19@gmail.com>
 Date:   Mon Dec 31 16:50:15 2018 -0500
 
     Se cambiaron los tamaños de las imagenes y encabezado en pixeles, se cambio el color del nav
 
-[33mcommit 35a7b6c7dc26355a8ebb7bdf7e8c4715ce20d259[m
+commit 35a7b6c7dc26355a8ebb7bdf7e8c4715ce20d259
 Author: Gio <giovannicb19@gmail.com>
 Date:   Mon Dec 31 01:57:19 2018 -0500
 
     Agregamos colores al encabezado y nav, ademas a las figuras les aplicamos un border radius
 
-[33mcommit cccbc624235ce2568f78faba0b4330132cb75cdd[m[33m ([m[1;32mmaster[m[33m)[m
+commit cccbc624235ce2568f78faba0b4330132cb75cdd
 Author: Gio <giovannicb19@gmail.com>
 Date:   Mon Dec 31 00:36:05 2018 -0500
 
