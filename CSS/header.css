@@ -1,0 +1,86 @@
+
+#cabecera1{
+	background: rgba(204, 30, 30, 0.8);	
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	text-transform: uppercase;
+	display: flex;
+	
+}
+#titulo{
+	font-size: 24px;
+}
+
+#b1{
+	height: inherit;
+	width: 33.33%;
+	background: rgba(204, 30, 30, 0.8);	
+
+}
+#b2{
+	height: inherit;
+	width: 33.33%;
+	background: white;
+	text-align: center;
+}
+#b2 .titulo{ 
+	color: black;
+}
+#b3{	
+	height: inherit;
+	width: 33.33%;
+	background: rgba(204, 30, 30, 0.8);	
+
+
+}
+
+header img{
+	width: 30px;
+	height: 30px;
+	padding: 10px;	
+	border-right: 1px solid white;
+	display: none;
+}
+
+header img:hover{
+	cursor: pointer; /*Cambia el cursor clasico a una manito*/
+	background: rgba(140, 125, 0, 0.5);
+}
+
+#cabecera2{
+	background: rgba(204, 30, 30, 0.8);
+	width: 100%;
+	margin: 0;
+}
+
+#btn_Menu{
+	display: none;/*Oculta el cuadrito de checkbox del proyecto*/
+}
+
+
+#barramenu ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;/*No deja espacio vacio*/
+	display: flex;/*Lo pone en una linea horizontal*/
+	border-top: 1px solid black;
+
+}
+
+header label{
+	display: block;
+}
+
+#barramenu li a{
+	border-right: 1px black solid;
+	display: block;
+	padding: 15px 20px;
+	text-decoration: none;
+	color: white;
+}
+
+#barramenu li a:hover{/*Eventos que se hara al pasar el mouse por los items del menu*/
+	background: rgba(0,0,0,0.3);
+}
+

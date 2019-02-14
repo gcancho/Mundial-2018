@@ -1,0 +1,69 @@
+
+/*----------------- Menu responsive de 0px a 780px-------------------*/
+@media (min-width: 0px) and (max-width: 780px) {
+	.football-players{
+		margin-top: 200px;
+	}
+	header img{
+		display: block;
+	}
+	#barramenu{
+		position: absolute;/*Para que el header quede vacio, la barra del menu sale del header*/
+		background: rgb(204, 30, 30);
+		width: 60%;/*ancho del menu*/
+		margin-left: -70%;/*Desaparece el menu*/
+		transition: all 0.4s;
+	}
+	#barramenu ul{
+		flex-direction: column;/*Pone al menu en columna*/
+		background: green;
+	}
+	#barramenu li{
+		border-top: 1px solid white;/*Borde superior de cada li del menu*/
+	}
+	#btn_Menu:checked ~ #barramenu{
+		margin: 0;
+	}
+	#barramenu:hover{
+		transition: all 0.4s;
+	}
+	#titulo{
+		font-size: 15px;
+	}
+}
+/* ----------------------------------------------------------------------------- */
+
+
+@media (min-width: 781px) and (max-width: 1045px) {
+	.football-players{
+		margin-top: 200px;
+	}
+	
+	header img{
+		display: block;
+	}
+	#barramenu{
+		position: absolute;/*Para que el header quede vacio, la barra del menu sale del header*/
+		background: rgb(204, 30, 30);
+		width: 60%;/*ancho del menu*/
+		margin-left: -70%;/*Desaparece el menu*/
+		transition: all 0.4s;
+	}
+	#barramenu ul{
+		flex-direction: column;/*Pone al menu en columna*/
+	}
+	#barramenu li{
+		border-top: 1px solid white;/*Borde superior de cada li del menu*/
+	}
+	#btn_Menu:checked ~ #barramenu{
+		margin: 0;
+	}
+
+	.football-players .imaginary{
+		display: none
+	}
+	#titulo{
+		font-size: 20px;
+	}
+}
+/* ------------------Fin de Menu responsive----------------------------------------- */
