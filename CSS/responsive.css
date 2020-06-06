@@ -7,6 +7,12 @@
 	header img{
 		display: block;
 	}
+
+	#titulo
+	{
+		font-size: 20px;
+	} 
+
 	#barramenu{
 		position: absolute;/*Para que el header quede vacio, la barra del menu sale del header*/
 		background: rgb(204, 30, 30);
@@ -30,6 +36,11 @@
 	#titulo{
 		font-size: 15px;
 	}
+	.theme-new  img
+	{
+		width: 80vw;
+	}
+
 }
 /* ----------------------------------------------------------------------------- */
 

@@ -37,8 +37,9 @@ h2{
 }
 .detail-box2{
     width: 50%;
-    padding-left: 50px;
     background: rgba(0, 153, 200, 0.2);
+    padding: 0 25px;
+
 }
 .detail-box2 h3{
     color: white;
