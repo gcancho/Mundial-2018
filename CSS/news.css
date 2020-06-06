@@ -11,14 +11,16 @@
 .title-new h3{
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px
 }
 .theme-new{
-    display: flex;
+    display: block;
+    /*width: 90%;*/
 }
 .theme-new img{
     margin: 10px;
-    width: 85%;
+    width: 90%;
 }
 .theme-new h4{
     margin: 20px;

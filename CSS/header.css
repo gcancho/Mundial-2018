@@ -24,8 +24,17 @@
 	background: white;
 	text-align: center;
 }
-#b2 .titulo{ 
+#b2 #titulo{ 
 	color: black;
+	display: flex;
+	justify-content: center;
+
+}
+#b2 h1
+{
+	display: flex;
+	/*margin:0;*/
+	align-items: center;
 }
 #b3{	
 	height: inherit;

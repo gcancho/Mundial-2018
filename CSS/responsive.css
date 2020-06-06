@@ -1,6 +1,6 @@
 
 /*----------------- Menu responsive de 0px a 780px-------------------*/
-@media (min-width: 0px) and (max-width: 780px) {
+@media screen and (max-width: 780px) {
 	.football-players{
 		margin-top: 200px;
 	}
@@ -8,9 +8,9 @@
 		display: block;
 	}
 
-	#titulo
+	#b2 > #titulo
 	{
-		font-size: 20px;
+		font-size: 18px;
 	} 
 
 	#barramenu{
@@ -36,9 +36,9 @@
 	#titulo{
 		font-size: 15px;
 	}
-	.theme-new  img
+	.detail-box
 	{
-		width: 80vw;
+		display: block;
 	}
 
 }
